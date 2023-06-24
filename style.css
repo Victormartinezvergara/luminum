@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(2, 187, 243);
+    padding: 26px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    color: white;
+}
+
+header button {
+    padding: 7px;
+    font-weight: 900;
+    background-color: rgb(255, 238, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.089);
+}
+
+header a {
+    position: absolute;
+    left: 58%;
+    top: 40px;
+}
+
+.banner {
+    top: 0px;
+    left: 0px;
+}
+
+.banner h1 {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.menu {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(2, 187, 243);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu button {
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+    padding: 0px 50px 0px 50px;
+    border: none;
+    background-color: rgb(2, 187, 243);
+}
+
+.menu img {
+    width: 28px;
+    box-shadow: 5px 5px 5px rgba(246, 250, 4, 0.726);
+    border-radius: 20px;
+}
+
+nav {
+    text-align: center;
+    position: relative;
+    top: 97px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.anuncio {
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+nav img {
+    width: 400px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+section {
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+
+.pero h1 {
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.adopta {
+    position: relative;
+    justify-content: center;
+    top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cuadro img {
+    width: 120px;
+}
+
+.cuadro {
+    border: 1px solid rgba(182, 181, 181, 0.205);
+    border-radius: 8px;
+    width: 150px;
+    padding: 16px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(161, 161, 161, 0.171);
+}
+
+.cuadro p {
+    font-size: 14px;
+}
+
+.cuadro button {
+    border: none;
+    background-color: rgb(2, 187, 243);
+    padding: 10px 30px 10px 30px;
+    margin: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 7px;
+}
